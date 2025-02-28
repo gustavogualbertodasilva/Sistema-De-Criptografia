@@ -98,15 +98,19 @@ class Program
                                 Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("CRIPTOGRAFIA");
                                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                                Thread.Sleep(500);
                                 Console.ForegroundColor = ConsoleColor.DarkYellow;
-                                Console.Write("2- Mudar ");
+                                Thread.Sleep(500);
+                                console.Write("2 - ");
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("Descriptografar");
+                                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                                Console.Write("3- Mudar ");
                                 Console.ForegroundColor = ConsoleColor.Gray;
                                 Console.WriteLine("Senha");
                                 Console.ForegroundColor = ConsoleColor.DarkGray;
                                 Thread.Sleep(500);
                                 Console.ForegroundColor = ConsoleColor.DarkYellow;
-                                Console.Write("3- ");
+                                Console.Write("4- ");
                                 Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("Deslogar");
                                 Console.ForegroundColor = ConsoleColor.DarkGray;
@@ -139,8 +143,12 @@ class Program
                                         {
                                             CodMorse();
                                         }
-                                    }
                                     else if (LogOptions == "2")
+                                    {
+                                        
+                                    }   
+                                    }
+                                    else if (LogOptions == "3")
                                     {
                                         Console.ForegroundColor = ConsoleColor.White;
                                         Console.WriteLine("Para Mudar Sua Senha");
@@ -192,7 +200,7 @@ class Program
                                             }
                                         }
                                     }
-                                    else if (LogOptions == "3")
+                                    else if (LogOptions == "4")
                                     {
                                         Console.Write("Saindo");
                                         Thread.Sleep(500);
