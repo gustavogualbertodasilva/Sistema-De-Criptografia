@@ -1,0 +1,15 @@
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\Listas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\Listas.AssemblyInfoInputs.cache
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\Listas.AssemblyInfo.cs
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\Listas.csproj.CoreCompileInputs.cache
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\Listas.sourcelink.json
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\bin\Debug\net9.0\Listas.exe
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\bin\Debug\net9.0\Listas.deps.json
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\bin\Debug\net9.0\Listas.runtimeconfig.json
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\bin\Debug\net9.0\Listas.dll
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\bin\Debug\net9.0\Listas.pdb
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\Listas.dll
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\refint\Listas.dll
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\Listas.pdb
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\Listas.genruntimeconfig.cache
+C:\Users\margb\Desktop\Programação estudos\Programacao-estudos\BACK-END\C#\Pratica\Listas\obj\Debug\net9.0\ref\Listas.dll
