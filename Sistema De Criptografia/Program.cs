@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading;
 
@@ -30,6 +30,8 @@ class Program
     public static string TrocarSenhaAtual;
     public static string TrocarSenha;
     public static string CriptografiaOptions;
+    public static string DsCriOptions;
+    public static bool RepeatDsCriOptions = true;
 
     static void Main()
     {
@@ -95,13 +97,13 @@ class Program
                                 Thread.Sleep(500);
                                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                                 Console.Write("1- Ir para Seção de ");
-                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.ForegroundColor = ConsoleColor.DarkGreen;
                                 Console.WriteLine("CRIPTOGRAFIA");
                                 Console.ForegroundColor = ConsoleColor.DarkGray;
                                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                                 Thread.Sleep(500);
-                                console.Write("2 - ");
-                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.Write("2- ");
+                                Console.ForegroundColor = ConsoleColor.DarkGreen;
                                 Console.WriteLine("Descriptografar");
                                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                                 Console.Write("3- Mudar ");
@@ -115,7 +117,7 @@ class Program
                                 Console.WriteLine("Deslogar");
                                 Console.ForegroundColor = ConsoleColor.DarkGray;
                                 LogOptions = Console.ReadLine();
-                                if (LogOptions == "1" || LogOptions == "2" || LogOptions == "3")
+                                if (LogOptions == "1" || LogOptions == "2" || LogOptions == "3" || LogOptions == "4")
                                 {
                                     if (LogOptions == "1")
                                     {
@@ -143,10 +145,54 @@ class Program
                                         {
                                             CodMorse();
                                         }
+                                    
+                                    }
                                     else if (LogOptions == "2")
                                     {
+                                        Console.WriteLine("Que Criptografia Você Deseja Traduzir?");
+                                        Thread.Sleep(500);
+                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.Write("1- ");
+                                        Console.ForegroundColor = ConsoleColor.Green;
+                                        Console.WriteLine("Cifra De Substituição Simples");
+                                        Thread.Sleep(500);
+                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.Write("2- ");
+                                        Console.ForegroundColor = ConsoleColor.Green;
+                                        Console.WriteLine("Codigo Binario");
+                                        Thread.Sleep(500);
+                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.Write("3- ");
+                                        Console.ForegroundColor = ConsoleColor.Green;
+                                        Console.WriteLine("Codigo Morse");
+                                        DsCriOptions = Console.ReadLine();
+                                        RepeatDsCriOptions = true;
                                         
-                                    }   
+                                        while(RepeatDsCriOptions == true)
+                                        {
+                                            if(DsCriOptions == "1")
+                                            {
+
+                                            }
+                                            else if (DsCriOptions == "2")
+                                            {
+                                                Console.Write("Digite o código binário para converter em texto: ");
+                                                string entradaBinaria = Console.ReadLine();
+                                                string textoConvertido = string.Concat(entradaBinaria.Split(' ').Select(b => (char)Convert.ToInt32(b, 2)));
+                                                Console.WriteLine($"{textoConvertido}");
+                                            }
+
+                                            else if(DsCriOptions == "3")
+                                            {
+
+                                            }
+                                            else
+                                            {
+                                                Console.ForegroundColor = ConsoleColor.Red;
+                                                Console.WriteLine("Digite Um Valor Valido");
+                                                RepeatDsCriOptions = true;
+                                            }
+                                        }          
                                     }
                                     else if (LogOptions == "3")
                                     {
